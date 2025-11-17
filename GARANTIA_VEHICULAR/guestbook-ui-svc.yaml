@@ -9,4 +9,3 @@ spec:
   type: NodePort    
   selector:
     app: guestbook-ui
-    

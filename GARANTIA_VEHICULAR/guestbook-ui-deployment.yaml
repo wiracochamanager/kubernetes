@@ -18,4 +18,4 @@ spec:
           name: guestbook-ui
           ports:
             - containerPort: 80
-#release: version-
+#release: version-dafb1e00a406a4d0ef6453fd8d0012cf988be6a9

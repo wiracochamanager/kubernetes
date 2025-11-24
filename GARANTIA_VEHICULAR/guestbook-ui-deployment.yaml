@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: wiracochamanager/mirepo:782b4ff8c23a95dc1371a615c4116c7416706caf
+        - image: wiracochamanager/mirepo:f8fe5d1e2abaa0cd3eec8e6e37a3d71a39a96280
           name: guestbook-ui
           ports:
             - containerPort: 80

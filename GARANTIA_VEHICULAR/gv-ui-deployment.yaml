@@ -1,21 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-ui
+  name: gv-ui
 spec:
   replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: guestbook-ui
+      app: gv-ui
   template:
     metadata:
       labels:
-        app: guestbook-ui
+        app: gv-ui
     spec:
       containers:
         - image: wiracochamanager/mirepo:8bc5026e959f5b2c30d416e9336e3797f21548aa
-          name: guestbook-ui
+          name: gv-ui
           ports:
             - containerPort: 80
-#release: version-fdbe71106477534fc6884f12e93e32c25773d906

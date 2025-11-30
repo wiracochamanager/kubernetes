@@ -14,7 +14,7 @@ spec:
         app: gv-ui
     spec:
       containers:
-        - image: wiracochamanager/mirepo:8ccd752c9fd8932b42a76831e058837992d98083
+        - image: wiracochamanager/mirepo:41da99ea78666c134bb2345825c461002e16cb51
           name: gv-ui
           ports:
             - containerPort: 80
